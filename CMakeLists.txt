@@ -44,7 +44,7 @@ if(CMAKE_SOURCE_DIR STREQUAL PROJECT_SOURCE_DIR)
   include(pybind11)
 endif()
 
-include(torch)
+#include(torch)
 
 if(kaldifeat_BUILD_TESTS)
   include(googletest)
